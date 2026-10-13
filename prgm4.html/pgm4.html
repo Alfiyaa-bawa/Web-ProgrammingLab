@@ -1,0 +1,81 @@
+<html>
+<head > <title> prgm 4-CSS </title>
+<link rel="stylesheet" href="file41.css">
+<style>
+p1{
+  color:brown;
+  font-family:Verdana,sans-serif;
+  font-style:oblique;
+ }
+
+h4
+	{
+  		text-shadow: 1px 1px;
+  	}
+  	
+  	
+ol.a{list-style-type:upper-roman;}
+
+table {
+  	border-collapse: collapse;
+  	width: 100%;
+}
+
+th,td {
+  	padding: 8px;
+  	text-align: left;
+  	border-bottom: 1px solid #ddd;
+}
+
+
+
+</style>
+</head>
+<body style="margin:40px ; ">
+
+<h1 align="center"  style= "color:brown ;"> CSS </h1>
+
+<p style="background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));;">Inline, internal, and external CSS represent the three different methods used to apply Cascading Style Sheets (CSS) to an HTML document. The primary differences lie in where the style code is written, its scope of impact, and its priority (specificity) in the browser</p>
+
+<h4>3 Types of CSS are:</h4>
+
+<ol class="a">
+  <li>Inline</li>
+  <li>Internal</li>
+  <li>External</li>
+</ol>
+
+<table>
+  <tr>
+    <th>Internal</th>
+    <th>Inline</th>
+    <th>External</th>
+  </tr>
+  <tr>
+    <td>Affects only that single specific element.</td>
+    <td>Affects all elements on that single HTML page.</td>
+    <td>Affects multiple HTML pages across the whole site.</td>
+  </tr>
+  <tr>
+    <td>Poor. Hard to update if used heavily.</td>
+    <td>Moderate. Easy to manage for one page, bad for multi-page sites</td>
+    <td>Excellent. Changes in one file update the entire site.</td>
+  </tr>
+</table>
+
+<h2 style="font-family:courier font-size:60px color:brown;">INLINE CSS</h2>
+<p style="background-color:LightSeaGreen ;" > This is an example for inline css.</p>
+<p style="border:2px  solid brown ;" > Inline CSS is a method of applying styles directly to a single HTML element by using the style attribute within the HTML tag itself. Instead of writing style rules in a separate document or at the top of your webpage, you embed the CSS property-value pairs directly into the element markup. </p>
+
+
+<h2 style="font-family:courier font-size:60px color:brown;">INTERNAL CSS</h2>
+<p1>Internal CSS (also known as embedded CSS) is a method of adding styling rules directly inside an HTML document rather than linking to an external stylesheet. The CSS code is placed entirely within a &lt style &gt tag, which is traditionally nested inside the &lt head &gt section of the HTML file </p1>
+
+<h2 style="font-family:courier font-size:60px color:brown;">EXTERNAL CSS</h2>
+<p4>External CSS is a method of styling web pages where all style rules are written in a separate, dedicated file with a .css extension. This file is then connected to one or more HTML documents using the link tag placed inside the head section of the HTML code</p4>
+
+
+</body>
+</html>
+
+
