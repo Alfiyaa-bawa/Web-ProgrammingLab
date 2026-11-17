@@ -1,0 +1,35 @@
+<html>
+<head>
+<title> program8 </title>
+<style>
+
+img{
+  clip-path: ellipse(50% 35%);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+</style>
+</head>
+
+<body>
+<img src="f.jpeg" id="image" onmouseover="one()" onmouseout="two()" width="400" height="500" >
+<p id="p1" align="center" >Neymer</p>
+<script>
+function one()
+{
+	document.getElementById("image").src="e.jpg";
+	document.getElementById("p1").innerHTML="Messi";
+	document.getElementById("p1").style.color="blue";
+}
+function two()
+{
+	document.getElementById("image").src="a.jpg";
+	document.getElementById("p1").innerHTML="Goat";
+	document.getElementById("p1").style.color="Red";
+}
+</script>
+</body>
+</html>
