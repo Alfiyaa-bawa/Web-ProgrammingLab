@@ -1,0 +1,31 @@
+<html>
+<head> <title> program 7</title>
+<style>
+.center {
+  position: absolute;
+  top: 40%;
+  width: 100%;
+  text-align: center;
+}
+
+.button1 {font-size: 60px;}
+
+</style>
+</head>
+<body>
+<div class="center">
+<button class = "button button1" onclick="changecolor()">Click me </button> 
+<p> To Change background colour </p>
+<div>
+<script>
+	function changecolor()
+	{
+		var r=Math.floor(Math.random()*256);
+		var g=Math.floor(Math.random()*256);
+		var b=Math.floor(Math.random()*256);
+		
+	document.body.style.backgroundColor="rgb("+r+","+g+","+b+")";
+	}
+</script>
+</body>
+</html>
