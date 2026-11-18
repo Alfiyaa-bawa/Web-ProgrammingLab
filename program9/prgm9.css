@@ -1,0 +1,30 @@
+h1
+{ 
+ text-align:center;
+ color: Brown;
+ font-family: "Sofia", sans-serif;
+ font-size: 160%;
+}
+body
+{
+ border-style:double;
+ width:1000px;
+ margin:auto;
+ border:3px;
+ background-color:WhiteSmoke;
+
+}
+
+
+div
+ {
+  text-align:center;
+  background-color:lightgrey;
+ }
+ 
+  
+
+  
+ 
+
+
